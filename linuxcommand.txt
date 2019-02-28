@@ -1,0 +1,22 @@
+pwd ===to show current directory
+ls ==list of the files
+yum install == it batch file to install application
+which tree === show the path of file present
+sudo su - ===get to root access
+git init ==to initilize the git
+yum install git ==install git
+fit status ==view the tracked files
+git add ==untracked files
+git commit -m"myfirst basic command file" ===add to commit under git(always check the status after git command)
+git remote add origin https://github.com/VishalYesurkar02/demo.git  ===set the remote location 
+git push -u origin master ==push the content to local machine to create clone
+
+
+basic commands to add to git repository
+
+echo "# demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/VishalYesurkar02/demo.git
+git push -u origin master
