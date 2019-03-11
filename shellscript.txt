@@ -1,0 +1,95 @@
+#!/bin/bash
+filename=homedirbackup_$(date +%Y%m%d).tar.gz
+tar -czf $filename /$HOME
+
+
+tar -xvf
+tar -cvf 
+tar -tvf 
+
+vi functiondemo.sh
+#!/bin/bash
+
+x="global value"
+
+function bashfunction {
+    local x="local value"
+    echo $x
+    }
+
+echo $x
+
+# call the bashfunction
+
+bashfunction
+
+echo $x
+
+
+===2ns
+#!/bin/bash
+filename=homedirbackup_$(date +%Y%m%d).tar.gz
+tar -czf $filename /$HOME
+
+
+tar -xvf
+tar -cvf 
+tar -tvf 
+
+
+        Functions :
+
+vi functiondemo.sh
+#!/bin/bash
+
+x="global value"
+
+function bashfunction {
+    local x="local value"
+    echo $x
+    }
+
+echo $x
+
+# call the bashfunction
+bashfunction
+
+echo $x
+
+vi argumentpassing.sh
+ 
+ #!/bin/bash
+    
+printfunction () {
+   echo Hello $1
+   return 0
+   }
+   
+printfunction Hello
+   
+printfunction "Big data!"
+
+
+bash argumentpassing.sh
+
+
+====3rd
+
+----------Command Line Arguments-------------
+vi bashargs.sh
+
+#!/bin/bash
+osname=$1
+echo $osname
+echo `uname -a`
+
+bash bashargs.sh Ubuntu
+
+
+
+
+
+
+
+
+
